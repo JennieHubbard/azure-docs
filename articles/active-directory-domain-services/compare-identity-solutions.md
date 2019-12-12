@@ -30,10 +30,6 @@ Although the three Active Directory-based identity solutions share a common name
 
 This overview article compares and contrasts how these identity solutions can work together, or would be used independently, depending on the needs of your organization.
 
-## Azure AD DS and self-managed AD DS
-
-If you have applications and services that need access to traditional authentication mechanisms such as Kerberos or NTLM, there are two ways to provide Active Directory Domain Services in the cloud:
-
 * A *managed* domain that you create using Azure Active Directory Domain Services (Azure AD DS). Microsoft creates and manages the required resources.
 * A *self-managed* domain that you create and configure using traditional resources such as virtual machines (VMs), Windows Server guest OS, and Active Directory Domain Services (AD DS). You then continue to administer these resources.
 
